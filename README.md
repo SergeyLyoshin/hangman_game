@@ -1,19 +1,16 @@
 # Welcome to game - Hangman!
 
-# What's Hangman?
+# What's Hangman? Rules of the game:
 
-Hangman (game), a game of guessing a word or phrase one letter at a time.
+Console game on Ruby.
 
-# Rules of the game:
+The computer thinks out a word (from the list in the file) and shows how many letters there are. The player enters letters one at a time. If a letter is in a word, the computer shows how many times it appears in it and in what places. If there is no letter, the computer counts the error. If the word is correctly guessed, the player wins. After each mistake, the gallows is drawn. There are 7 mistakes you can make.
 
-The program guesses a word, the player must guess the word in 7 attempts. Re-entering an incorrect letter will not count as an additional error.
-
-New words can be added to the `words.txt` file in the `data` folder
-
+New words can be added to the words.txt file in the data folder
 # How to play?
 
 Install Ruby at the command prompt if you haven't yet:
 
 At the command prompt, run next:
 
-`$ruby main.rb`
+`$ ruby main.rb`
