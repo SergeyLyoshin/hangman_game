@@ -13,4 +13,4 @@ Install Ruby at the command prompt if you haven't yet:
 
 At the command prompt, run next:
 
-`$ ruby main.rb`
+    `$ ruby main.rb`
